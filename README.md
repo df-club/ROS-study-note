@@ -1,6 +1,6 @@
 # ROS学习笔记
 
-**作者：**L Zhao，欢迎加入协同编辑！
+**作者：** L Zhao，欢迎加入协同编辑！
 
 ROS是机器人操作系统（Robot Operating System）的英文缩写，ROS的首要目标是提供一套统一的开源程序框架，用以在多样化的现实世界与仿真环境中实现对机器人的控制。
 
@@ -8,7 +8,7 @@ ROS是机器人操作系统（Robot Operating System）的英文缩写，ROS的�
 
 我们希望读者通过这篇笔记，对ROS能有比较直观的理解，能够自行搭建起一个ROS的实验平台，并具备在此基础上进一步学习的能力。介于机器人系统本身的复杂性，笔记中只会对ROS学习过程中的重点和难点给出简要描述，而具体的细节和代码将通过链接的方式给出。
 
-在学习ROS的同时，我们开展了LIBRO图书管理机器人（LIBrary management RObot）项目，并在GitHub上开放了源代码，地址：https://github.com/df-club/libro，欢迎大家共同学习交流！
+在学习ROS的同时，我们开展了LIBRO图书管理机器人（LIBrary management RObot）项目，并在GitHub上开放了源代码，地址：https://github.com/df-club/libro ，欢迎大家共同学习交流！
 
 ## ROS简介
 

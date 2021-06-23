@@ -10,7 +10,7 @@ ROS是机器人操作系统（Robot Operating System）的英文缩写，ROS的�
 
 在学习ROS的同时，我们开展了LIBRO图书管理机器人（LIBrary management RObot）项目，并在GitHub上开放了源代码，地址：https://github.com/df-club/libro ，欢迎大家共同学习交流！
 
-## ROS简介
+## 一、ROS简介
 
 在阅读这篇笔记之前，我设想你已经有了设计制作一个机器人系统的需求，不管是学习还是工作的需要，但你很可能还是一个菜鸟，希望了解是否需要学习ROS，ROS到底能够做些什么，进一步思考如何着手实施项目。
 
@@ -39,7 +39,7 @@ ROS从定义上看，首先是一个操作系统，操作系统的主要功能�
 3. 或者采用可以运行Linux操作系统的其他设备，比如NVDIA Jetson；
 4. OK，let's go!
 
-## ROS环境搭建
+## 二、ROS环境搭建
 
 ROS虽然叫操作系统，但却不像我们通常所说的操作系统那样可以直接安装到硬件上，而是需要运行在Linux操作系统环境下，通过Linux来控制具体的硬件设备。如下图所示，在这种层次结构中，ROS可以方便地调用Linux所提供的各种功能，降低了系统开发的复杂程度，并且借助Linux实现了一定的跨平台能力。所以，搭建ROS环境的第一步是安装Linux操作系统。
 
@@ -47,13 +47,13 @@ ROS虽然叫操作系统，但却不像我们通常所说的操作系统那样�
 
 ### 1. 安装Linux操作系统
 
-ROS目前只能在基于Unix的平台上运行。ROS的软件主要在Ubuntu和Mac OS X 系统上测试，同时ROS社区仍持续支持Fedora，Gentoo，Arch Linux和其它Linux平台。 
+ROS目前已推出ROS1和ROS2两个大的版本，其中ROS2还在开发测试阶段。ROS1只能在类Unix平台上运行，官方推荐使用Ubuntu操作系统，为了避免出现不必要的兼容性问题，ROS1的版本与Ubuntu的版本要相对应，例如：本文中所采用的ROS1版本为：ROS Melodic Morenia，对应的Ubuntu版本为：Ubuntu Bionic Beaver 18.04；ROS1的最新版为：ROS Noetic Ninjemys，其所对应的Ubuntu版本为20.04；ROS2将支持包括windows在内的多种系统平台，以及其他方面的改进提升，关于ROS1和ROS2的对比，请参考：https://blog.csdn.net/brawly/article/details/106435843 。
 
-情况1：硬件安装Ubuntu系统或双系统
+**情况1：硬件安装Ubuntu系统或双系统**
 
-情况2：虚拟机安装系统
+**情况2：虚拟机安装系统**
 
-情况3：在Jetson上安装系统
+**情况3：在Jetson上安装系统**
 
 ### 2. 安装ROS
 
@@ -63,9 +63,9 @@ ROS目前只能在基于Unix的平台上运行。ROS的软件主要在Ubuntu和M
 
 
 
-## ROS基础功能
+## 三、ROS基础功能
 
-## ROS建模仿真
+## 四、ROS建模仿真
 
-## ROS进阶功能
+## 五、ROS进阶功能
 

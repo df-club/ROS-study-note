@@ -51,9 +51,7 @@ ROS官方推荐采用Ubuntu操作系统，Ubuntu是一种“桌面级”的Linux
 
 <img src="assets/ros+ubuntu.png" alt="ros+ubuntu" style="zoom: 67%;" />
 
-ROS还在不断升级更新，并推出了ROS2.0版，将支持包括Windows在内的多种系统平台，以及其他方面的改进提升，具体请参考：https://blog.csdn.net/brawly/article/details/106435843 。
-
-新版本虽然提供了很多新特性，但学习资料相对较少，而且系统稳定性还有待提升。因此，还是推荐初学者按照文章内容先将整个流程操作一遍，熟悉功能和用法之后再去尝鲜。
+ROS还在不断升级更新，并推出了ROS2.0版，将支持包括Windows在内的多种系统平台，以及其他方面的改进提升，具体请参考：https://blog.csdn.net/brawly/article/details/106435843 。新版本虽然提供了很多新特性，但学习资料相对较少，而且系统稳定性还有待提升。因此，还是推荐初学者按照文章内容先将整个流程操作一遍，熟悉功能和用法之后再去尝鲜。
 
 **情况1：虚拟机安装Ubuntu系统**
 
@@ -68,6 +66,8 @@ ROS还在不断升级更新，并推出了ROS2.0版，将支持包括Windows在�
 具体步骤请参考：https://www.cnblogs.com/jsdy/p/11420118.html
 
 **情况3：在Jetson上安装Ubuntu系统**
+
+出于对体积和功耗方面的考量，很多机器人系统会选择部署在嵌入式硬件平台上，常见的如树莓派或者NVIDIA Jetson开发版，如果涉及机器视觉相关应用，建议购买性能更强劲的Jetson。关于如何在Jetson上安装使用Ubuntu系统，可以参考我们之前的文章：https://mp.weixin.qq.com/s/tGkvyF7yi3eBiuwgPvjfNA
 
 ### 2. 安装ROS
 
